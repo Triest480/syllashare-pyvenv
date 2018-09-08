@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Ned\Envs\syllashare"
+set "VIRTUAL_ENV=C:\Users\Ned\DOCUME~1\SCHOOL~1\CALPOL~1\CS480\SYLLAS~1\SYLLAS~1"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
@@ -9,7 +9,7 @@ if defined _OLD_VIRTUAL_PROMPT (
     )
     set "_OLD_VIRTUAL_PROMPT=%PROMPT%"
 )
-set "PROMPT=(syllashare) %PROMPT%"
+set "PROMPT=(SYLLAS~1) %PROMPT%"
 
 REM Don't use () to avoid problems with them in %PATH%
 if defined _OLD_VIRTUAL_PYTHONHOME goto ENDIFVHOME
@@ -28,9 +28,3 @@ if defined _OLD_VIRTUAL_PATH goto ENDIFVPATH2
 :ENDIFVPATH2
 
 set "PATH=%VIRTUAL_ENV%\Scripts;%PATH%"
-:: In case user makes changes to PYTHONPATH
-if defined _OLD_VIRTUAL_PYTHONPATH (
-    set "PYTHONPATH=%_OLD_VIRTUAL_PYTHONPATH%"
-) else (
-    set "_OLD_VIRTUAL_PYTHONPATH=%PYTHONPATH%"
-)

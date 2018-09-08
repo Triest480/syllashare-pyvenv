@@ -24,8 +24,9 @@
      - `mkvirtualenv syllashare`
      
   6. You should now be in the virtual environment ('(syllashare)' should be in the command line).
-     - To Activate: `workon syllashare`
-     - To Deactivate: `deactivate`
+     - For future use:
+       - To Activate: `workon syllashare`
+       - To Deactivate: `deactivate`
      
   7. Install required packages to venv (make sure you're in the venv).
      - `pip install -U -r requirements.txt `
@@ -43,6 +44,9 @@
      - Linux
        - `sudo apt install tesseract-ocr`
        - `sudo apt install libtesseract-dev`
+  
+  10. Do Work!
+     - Check out my Python Tutorial - [Here](https://github.com/Tryst480/python-tutorial)
  
 ## Configuring Pycharm
   1. Locate absolute path to virtual environment you created.

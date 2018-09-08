@@ -34,19 +34,6 @@ Not sure if this method of a general windows pyvenv will work yet. If this doesn
   - [Beautiful Soup 4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - An HTML/XML Parser. 
   - [NumPy](https://docs.scipy.org/doc/numpy/user/quickstart.html) - An Advanced Math and Computation Efficiency library 
   - [Matplotlib](https://matplotlib.org/api/pyplot_summary.html) - A 2d plotting library
-
-## How To Use Virtual Environment:
-  ### On Command Line
-  1. In ***Command Prompt***: '`\path\to\env\syllashare-pyvenv-win\syllashare\Scripts\activate`'
-  2. You should now be in the virtual environment. (There should be a (syllashare) in the command line)
-  3. In ***Command Prompt***: '`pip list`' to verify if all packages are installed in virtual environment
-  4. Do Work on command line interface:
-     - Call a Python file: '`py myTestfile.py`'
-  
-  5. To Exit Virtual Environment:
-     -  In ***Command Prompt***: '`cd ~\(DOWNLOAD_PATH)\syllashare-pyvenv-win\syllashare\Scripts\`'
-     -  In ***Command Prompt***: '`call deactivate.bat`'
-  6. Or you can just exit the Command Prompt
   
   ### Using PyCharm
   1. Locate absolute path to: '`\path\to\env\syllashare-pyvenv-win\syllashare\Scripts\python.exe`'

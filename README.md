@@ -10,7 +10,7 @@
        - `sudo apt-get python3.7`
      - Note: Most likely this project will work with any Python 3 interpreter, but to be safe, we'll standardize it to Python 3.7
      
-  2. Upgrade pip (the default pip is probably behind)
+  2. Upgrade pip. (the default pip is probably behind)
      - `python -m pip install --upgrade pip`
      
   3. Download virtualenvwrapper package.

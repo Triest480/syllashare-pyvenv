@@ -15,7 +15,10 @@
      
   3. Download virtualenvwrapper package.
      - `pip install virtualenv` - This package creates the virtualenvs
-     - `pip install virtualenvwrapper` - This package uses the one above and then manages the different virtual envs for you.
+     - Windows:
+       - `pip install virtualenvwrapper-win`
+     - Mac/Linux:
+       - `pip install virtualenvwrapper`
      
   4. Move to where you put requirements.txt.
      - `cd /path/to/syllashare-pyvenv/`

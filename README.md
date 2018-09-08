@@ -3,10 +3,28 @@ Not sure if this method of a general windows pyvenv will work yet. If this doesn
   - [How to make a Virtual Enviroment in Windows](https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/)
   - [How to install custom packages into venv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
 
-# syllashare-pyvenv-win
+# Making Your Virtual Environment (Windows)
 
-## Requirement Before Downloading Repository:
-  - [Python 3.7](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe) - Most likely any version of Python3 will work but this venv was created with python3.7.
+## Steps in Any Shell:
+  1. Download [Python 3.7](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe) 
+      - If you enter `python` in your shell, it should say 'Python 3.7.0'. If not, try `python3` and see if that works. If it does change all `python` to `python3` in commands.
+      - Most likely this project will work on any Python3, but to be safe, we'll standardize it to Python 3.7
+  2. Upgrade pip (the defauly pip is probably behind)
+      - `python -m pip install --upgrade pip`
+  3. Download virtualenvwrapper package.
+      - `pip install virtualenv`
+      - `pip install virtualenvwrapper`
+  4. Move to where you put requirements.txt
+      - `cd /path/to/syllashare-pyvenv/`
+  5. Make Virtual Environment
+      - `mkvirtualenv syllashare`
+  6. You should now be in the virtual environment ('(syllashare)' should be in the command line):
+      - To Activate: `workon syllashare`
+      - To Deactivate: `deactivate`
+  7. Install required packages to venv (make sure you're in the venv):
+      - `pip install -U -r requirements.txt `
+  8. Verify that all the packages were installed:
+      - `pip list`
   
 ## Libraries Included in this Virtual Environment:
   - [Django](https://docs.djangoproject.com/en/2.1/) - Web Backend Framework
